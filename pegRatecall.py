@@ -55,7 +55,7 @@ def text_message(): # generate text message based on curent xchange rates
     elif what_to_do() == 'go_euro':
         return f'''Just your husband's awesome currency monitoring service notifying you that you'll lose less money this month if you use your 🇺🇸 credit cards.  For every $100 you spend you'll save ${round(100*((1-usd2chf2eur) - (1-usd2eur)),2)} 🤑🤑🤑.  Va dépenser de l\'argent, bravo pour la France!'''
     else:
-        return f'''You'll lose less money this month if you use your 🇨🇭 bank account.  For every $100 you spend you'll save {round(100*((1-usd2eur) - (1-usd2chf2eur)),2)} 💰💰💰.  La Suisse est chère, économisez votre argent!'''
+        return f'''Just your husband's awesome currency monitoring service notifying you that you'll lose less money this month if you use your 🇨🇭 bank account.  For every $100 you spend you'll save {round(100*((1-usd2eur) - (1-usd2chf2eur)),2)} 💰💰💰.  La Suisse est chère, économisez votre argent!'''
 
 # make api call to twillio
 
